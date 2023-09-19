@@ -1,0 +1,46 @@
+@import url(reset.css);
+
+* {
+  color: gray;
+}
+
+span {
+  color: green;
+}
+
+h1,
+h2 {
+  color: violet;
+}
+
+ul > li {
+  color: cornflowerblue;
+}
+
+.quote {
+  color: rgb(34, 15, 146);
+}
+
+#politics span {
+  color: blueviolet;
+}
+
+#army .woman-name {
+  color: tomato;
+}
+
+#salaries p > a {
+  color: rgb(170, 185, 33);
+}
+
+[class*="title"] + p {
+  color: black;
+}
+
+.header p {
+  color: rgb(179, 189, 163);
+}
+
+#sexism-victims > p {
+  color: chocolate;
+}
