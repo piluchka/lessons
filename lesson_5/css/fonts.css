@@ -1,0 +1,57 @@
+/* codecwarm */
+@font-face {
+  font-family: "Codecwarm";
+  src: url("../fonts/codecwarm-trial-regular.woff2") format("woff2"),
+    url("../fonts/codecwarm-trial-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Codecwarm";
+  src: url("../fonts/codecwarm-trial-bold.woff2") format("woff2"),
+    url("../fonts/codecwarm-trial-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Codecwarm";
+  src: url("../fonts/codecwarm-trial-light.woff2") format("woff2"),
+    url("../fonts/codecwarm-trial-light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------------------------------- */
+/* glamor */
+@font-face {
+  font-family: "Glamor";
+  src: url("../fonts/glamormedium.woff2") format("woff2"), url("../fonts/glamormedium.woff1") format("woff1");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Glamor";
+  src: url("../fonts/glamorlight.woff2") format("woff2"), url("../fonts/glamorlight.woff") format("woff1");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Glamor";
+  src: url("../fonts/glamormedium-italic.woff2") format("woff2"),
+    url("../fonts/glamormedium-italic.woff") format("woff1");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Glamor";
+  src: url("../fonts/glamorregular.woff2") format("woff2"), url("../fonts/glamorregular.woff") format("woff1");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

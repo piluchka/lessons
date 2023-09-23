@@ -1,0 +1,114 @@
+@import url(reset.css);
+
+@import url(fonts.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: #6b77e5;
+}
+/* --------------------------------------------------- */
+.article-list a {
+  color: #132b7a;
+}
+.header p {
+  text-decoration: underline;
+  font-size: 23px;
+}
+/* --------------------------------------------------- */
+.consulting-main-title {
+  font-family: "Poppins", sans-serif;
+  color: #37393f;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.27;
+}
+
+.consulting-small-title {
+  color: #6b77e5;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.27;
+}
+
+.consulting p {
+  color: #7d7d7d;
+  font-size: 18px;
+  line-height: 1.46;
+}
+
+.project-info p {
+  color: #7d7d7d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.46;
+}
+.project-title {
+  color: #37393f;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.46;
+}
+.fisrt-project-list li,
+.second-project-list li {
+  color: #7d7d7d;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.46;
+}
+
+/* --------------------------------------------------- */
+#article p {
+  font-family: "Glamor", serif;
+  font-weight: 300;
+}
+#article h2[class*="-title"] {
+  font-family: "Codecwarm", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.gorilla-intro-title {
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 2px 7px 5px #8d8d8d;
+  text-transform: uppercase;
+}
+#gorilla-intro p {
+  text-transform: lowercase;
+  letter-spacing: 2px;
+  text-indent: 1%;
+  font-weight: 500;
+  font-style: italic;
+}
+
+#gorilla-family p {
+  line-height: 3;
+  color: #8a91a7;
+  word-spacing: 10px;
+}
+
+#gorilla-lifetime .spacing {
+  letter-spacing: 10px;
+  line-height: 1.45;
+}
+#gorilla-lifetime p {
+  text-align: right;
+}
+
+#gorilla-under-threat .line-through {
+  text-decoration: line-through;
+}
+#gorilla-under-threat p {
+  color: brown;
+  text-indent: 10px;
+  line-height: 1.55;
+}
