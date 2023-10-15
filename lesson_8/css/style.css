@@ -1,0 +1,294 @@
+/* Reset */
+@import url("reset.css");
+/* Fonts */
+@import url("fonts.css");
+
+/* ----------------------- */
+
+/* Care */
+
+.care {
+  max-width: 703px;
+  padding: 50px 15px;
+  margin: 0 auto 190px auto;
+}
+.title {
+  color: #37393f;
+  font-family: Poppins;
+  line-height: 1.2;
+}
+.care-subtitle {
+  background: url("../img/square.svg") no-repeat 0 5px / 12px;
+  color: #37393f;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  padding: 0 0 0 18px;
+  margin: 0 0 20px 0;
+}
+.care-title {
+  font-size: 40px;
+  font-weight: 700;
+  max-width: 415px;
+  margin: 0 0 20px 0;
+}
+.care-content p {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.46;
+  margin: 0 0 16px 0;
+}
+.care-content {
+  margin: 0 0 48px 0;
+}
+.care-block {
+  border: 1px solid #e3e3e3;
+  margin: 0 0 31px 0;
+}
+.care-vision-title,
+.care-mission-title {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 12px 0;
+}
+.care-vision,
+.care-mission {
+  background: url("../img/mark.svg") no-repeat 0 0 / 27px;
+  margin: 25px 41px 28px 38px;
+  padding: 3px 0 0 46px;
+}
+.care-vision p,
+.care-mission p {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.46;
+}
+
+.last-block {
+  margin: 0 0 48px 0;
+}
+.care-button {
+  display: inline-block;
+  width: 200px;
+  height: 65px;
+  background: #6b77e5;
+  text-align: center;
+  padding: 21px 35px 22px 35px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+
+/* Project */
+.project {
+  max-width: 1264px;
+  padding: 0 15px;
+  margin: 0 auto 150px auto;
+}
+.project-content {
+  text-align: center;
+  margin: 0 auto 47px auto;
+  max-width: 852px;
+}
+.project-square {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #40ddb6;
+  margin: 0 6px 0 0;
+}
+
+.project-content-subtitle {
+  display: inline-block;
+  color: #37393f;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0 0 12px 0;
+}
+.project-content-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+.project-content p {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.46;
+}
+
+.project-card {
+  display: inline-block;
+  font-size: 0;
+  min-width: 385px;
+  min-height: 552px;
+  margin: 0 0 58px 0;
+}
+.project-card-bg {
+  width: 385px;
+  height: 500px;
+}
+.first-card .project-card-bg {
+  background: url("../img/card-1.png") no-repeat center / cover;
+  margin: 0 34px 24px 0;
+}
+.second-card .project-card-bg {
+  background: url("../img/card-2.png") no-repeat center / cover;
+  margin: 0 34px 24px 0;
+}
+.third-card .project-card-bg {
+  background: url("../img/card-3.png") no-repeat center / cover;
+  margin: 0 0 24px 0;
+}
+.fourth-card .project-card-bg {
+  background: url("../img/card-4.png") no-repeat center / cover;
+  margin: 0 34px 24px 0;
+}
+.fifth-card .project-card-bg {
+  background: url("../img/card-5.png") no-repeat center / cover;
+  margin: 0 34px 24px 0;
+}
+.sixth-card .project-card-bg {
+  background: url("../img/card-6.png") no-repeat center / cover;
+  margin: 0 0 24px 0;
+}
+.project-card-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.27;
+  margin: 0 0 10px 0;
+}
+.project-card-date {
+  background: url("../img/calendar.svg") no-repeat 0 0 / 22px;
+  padding: 0 0 0 27px;
+}
+.project-card-date p {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.46;
+}
+
+/* Fashion */
+.fashion {
+  max-width: 1258px;
+  padding: 0 15px;
+  margin: 0 auto 100px auto;
+  font-size: 0;
+}
+.fashion-content {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  vertical-align: top;
+  display: inline-block;
+  background: url("../img/leaves-bg.png") no-repeat center / cover;
+  width: 614px;
+  height: 640px;
+  padding: 183px 74px 174px 74px;
+}
+.fashion-content p {
+  color: #fff;
+  font-family: Causten;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  margin: 0 0 50px 0;
+}
+.fashion-content-title {
+  color: #fff;
+  font-family: Core Sans C;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 1.47;
+  letter-spacing: 0.208px;
+  margin: 0 0 30px 0;
+}
+
+.fashion-content-button {
+  display: block;
+  width: 168px;
+  height: 46px;
+  background: #fff;
+  border-radius: 8px;
+  text-align: center;
+  color: #3c4242;
+  font-family: Causten;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 12px 44px;
+}
+.fashion-friends {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  display: inline-block;
+  width: 614px;
+  height: 640px;
+  background: url("../img/friends-bg.png") no-repeat center / cover;
+}
+
+/* Clothing */
+.clothing {
+  max-width: 1270px;
+  padding: 0 15px 100px 21px;
+  margin: 0 auto;
+  background: url("../img/oval.png") no-repeat 0 0 / 6px;
+}
+.clothing-content p {
+  color: #807d7e;
+  font-family: Causten;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.67;
+  letter-spacing: 0.4px;
+  margin: 0 0 20px 0;
+}
+.clothing-content a {
+  color: #807d7e;
+  font-family: Core Sans C;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.67;
+  letter-spacing: 0.4px;
+}
+.clothing-content {
+  margin: 0 0 25px 0;
+}
+.clothing-title {
+  color: #3c4242;
+  font-family: Core Sans C;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.19;
+  letter-spacing: 0.56px;
+  margin: 0 0 30px 0;
+}
+.clothing-subtitle {
+  color: #807d7e;
+  font-family: Core Sans C;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.67;
+  letter-spacing: 0.4px;
+  margin: 0 0 25px 0;
+}
+.bold-shop-name {
+  font-weight: 700;
+}
