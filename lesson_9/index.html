@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson 9 - Pseudo-classes / Pseudo-elements</title>
+</head>
+
+<body>
+   <header class="header">
+      <ul class="header-list">
+         <li><a href="#memes">Memes</a></li>
+         <li><a href="#game">Game</a></li>
+         <li><a href="#why">Why Us</a></li>
+         <li><a href="#care">Care</a></li>
+         <li><a href="#work">Work</a></li>
+         <li><a href="#jewels">Jewels</a></li>
+      </ul>
+   </header>
+   <main>
+      <!-- Практика -->
+      <div class="practice" id="memes">
+         <div class="meme-block">
+            <div class="meme"></div>
+            <div class="dancing">
+               <h2 class="dancing-title">Click!↓ </h2>
+               <div class="dancing-cat"></div>
+            </div>
+            <div class="spooky">
+               <img class="first-spooky-img" src="img/spooky.jpg" alt="Creepy eyes">
+               <img class="second-spooky-img" src="img/spooky_2.jpg" alt="Creepy cat">
+               <img class="third-spooky-img" src="img/spooky_3.jpg" alt="Slay cat">
+            </div>
+         </div>
+         <div class="rose">
+            <p>Okay, I'm so sorry for this spooky-dookie cats.</p>
+            <p><a href="#rose">Click</a> to take a rose</p>
+            <img id="rose" class="rose-appearance" src="img/rose_cat.jpg" alt="a rose">
+         </div>
+         <div class="list">
+            <ul>
+               <li class="list-item-one"><a href="https://developer.mozilla.org/ru/docs/Web/CSS/border">Solid Focus
+                     (Tab)</a>
+               </li>
+               <li class="list-item-two"><a href="https://developer.mozilla.org/ru/docs/Web/CSS/border">Dotted Focus
+                     (Tab)</a>
+               </li>
+               <li class="list-item-three"><a href="https://developer.mozilla.org/ru/docs/Web/CSS/border">Dashed Focus
+                     (Tab)</a></li>
+               <li class="list-item-four"><a href="https://developer.mozilla.org/ru/docs/Web/CSS/border">Double Focus
+                     (Tab)</a></li>
+            </ul>
+         </div>
+      </div>
+      <!-- Гра -->
+      <div class="game" id="game">
+         <h4 class="game-title">Let's <span>play</span> a game</h4>
+         <div class="game-field">
+            <div class="field-1">
+               <p>start</p>
+            </div>
+            <div class="field-2"></div>
+            <div class="field-3"></div>
+            <div class="field-4"></div>
+            <div class="field-5"></div>
+            <div class="field-6"></div>
+            <div class="field-7"></div>
+            <div class="field-8"></div>
+            <div class="game-end">
+               <p>CLICK ME</p>
+            </div>
+            <script src="js/game.js"></script>
+         </div>
+      </div>
+      <!-- Why Us -->
+      <div class="why" id="why">
+         <h2 class="why-title big-title">Why Us For International Business Management Consulting! </h2>
+         <div class="why-content">
+            <p>Completely synergized resourced taxings relationships premiers markets ultivate one-to-one customer
+               service with robust ideas dynamically innovated resources leveling customer service for state of the art
+               customer service innovate product for reliable supply engage web services cutting-edge deliverables.</p>
+         </div>
+         <h5 class="why-subtitle small-subtitle">Proactively envisioned multimedia based expertise media growth superior
+            collaboration. </h5>
+         <div class="why-content">
+            <p>One-to-one customer service with robust ideas dynamically innovated resources for reliable supply engage
+               web services cutting-edge deliverables.</p>
+         </div>
+         <div class="why-benefits">
+            <img src="img/benefits.png" alt="A plant with a computer" class="why-benefits-img">
+            <div class="why-benefits-content">
+               <h3 class="big-title why-benefits-content-title">Our benefits</h3>
+               <h5 class="why-benefits-content-subtitle small-subtitle">Incubate standards compliant channels benefits.
+               </h5>
+               <ul class="why-benefits-content-list">
+                  <li>Credibly reintermediate backend</li>
+                  <li>Holistically foster superior</li>
+                  <li>Distinctively exploit optimal</li>
+               </ul>
+            </div>
+         </div>
+         <div class="why-questions">
+            <h2 class="why-questions-title big-title">Frequently Asked Questions</h2>
+            <div class="why-content">
+               <p>Leveling customer service for state of the art customer service innovate product for reliable supply
+                  engage web services cutting-edge deliverables.</p>
+            </div>
+         </div>
+      </div>
+      <!-- Care -->
+      <div class="care" id="care">
+         <h6 class="care-subtitle cube-subtitle">Welcome Whitecollar</h6>
+         <h2 class="care-title big-title">We Care About Your Business Plan.</h2>
+         <div class="care-content">
+            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews.Iterative approaches to
+               corporate strategy foster collaborative thinking to further the overal.</p>
+            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews.Iterative approaches to
+               corporate strategy </p>
+         </div>
+         <div class="care-vision mark-box">
+            <h5 class="mark-box-title big-title">Our Vision</h5>
+            <div class="mark-box-content">
+               <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta clickthroughs.</p>
+            </div>
+         </div>
+         <div class="care-mision mark-box">
+            <h5 class="mark-box-title big-title">Our Mision</h5>
+            <div class="mark-box-content">
+               <p>Podcasting operational change management inside of workflows to establish a framework.</p>
+            </div>
+         </div>
+         <a class="care-button" href="#">More About Us</a>
+      </div>
+      <div class="work" id="work">
+         <h6 class=" work-subtitle cube-subtitle">Work Process</h6>
+         <h2 class="work-title big-title">How We Work</h2>
+         <div class="work-cards">
+            <div class="card card-one">
+               <h4 class="card-title big-title">Make Appointment</h4>
+               <div class="card-content">
+                  <p>Leverage agile frameworks provide synopsishigh level overviews value proposition. </p>
+               </div>
+               <a class="card-link small-subtitle" href="#">Testimonials</a>
+            </div>
+            <div class="card card-two">
+               <h4 class="card-title big-title">Consultation</h4>
+               <div class="card-content">
+                  <p>Leverage agile frameworks provide synopsishigh level overviews value proposition. </p>
+               </div>
+               <a class="card-link small-subtitle" href="#">Testimonials</a>
+            </div>
+            <div class="card card-three">
+               <h4 class="card-title big-title">Enjoy the Service</h4>
+               <div class="card-content">
+                  <p>Leverage agile frameworks provide synopsishigh level overviews value proposition. </p>
+               </div>
+               <a class="card-link small-subtitle" href="#">Testimonials</a>
+            </div>
+         </div>
+      </div>
+      <div class="jewels" id="jewels">
+         <h2 class="jewels-title">We Develop Create Custom Jewels.</h2>
+         <div class="jewels-cards">
+            <div class="jewels-card-one">
+               <div class="jewels-card-one-img"><img src="img/jewels-1.png" alt="A ring"></div>
+               <h6 class="jewels-card-subtitle">Embossed hoop earrings</h6>
+               <p>$144.00</p>
+            </div>
+            <div class="jewels-card-two">
+               <h4 class="jewels-card-title">#02<br> new jewellery collection</h4>
+               <div class="jewels-card-two-img"> <img src="img/jewels-2.png" alt="Rings"></div>
+               <h6 class="jewels-card-subtitle">Embossed hoop earrings</h6>
+               <p>$144.00</p>
+            </div>
+         </div>
+      </div>
+   </main>
+   <footer>
+      <p>I wanna cry every time I sit for my homework for all days long. Please, help me...</p>
+   </footer>
+</body>
+
+</html>
