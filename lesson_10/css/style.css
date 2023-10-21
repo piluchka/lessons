@@ -1,0 +1,13 @@
+@import url(reset.css);
+
+p {
+  margin: 0 0 15px 0;
+}
+
+.white-icons {
+  background-color: #838383;
+  max-width: 300px;
+}
+.big-img {
+  width: 500px;
+}
