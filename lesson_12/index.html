@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson 12 - Position</title>
+</head>
+<!-- СДЕЛАТЬ КНОПКИ ХЕДЕРА ПОЛНОСТЬЮ КЛИКАБЕЛЬНЫМИ -->
+
+<body>
+   <div class="wrapper">
+      <header class="header header--fixed">
+         <div class="header__cont">
+            <ul class="header__menu menu">
+               <li class="menu__item">
+                  <a href="#experts" class="menu__link">Our Experts</a>
+               </li>
+               <li class="menu__item"><a href="#" class="menu__link">Adopt a pet</a>
+                  <ul class="menu__sub-menu sub-menu">
+                     <li class="sub-menu__item"><a href="#" class="sub-menu__link">Dogs</a>
+                        <ul class="second-sub-menu sub-menu__add-menu">
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Jerry</a></li>
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Fluffy</a></li>
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">John</a></li>
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Jessica</a></li>
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Barn</a></li>
+                        </ul>
+                     </li>
+                     <li class="sub-menu__item"><a href="#" class="sub-menu__link">Cats</a>
+                        <ul class="second-sub-menu sub-menu__add-menu">
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Gregor</a></li>
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Cookie</a></li>
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Sandra</a></li>
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Ginger</a></li>
+                        </ul>
+                     </li>
+                     <li class="sub-menu__item"><a href="#" class="sub-menu__link">Parrots</a>
+                        <ul class="second-sub-menu sub-menu__add-menu">
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Kar-Kar</a></li>
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Loffi</a></li>
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Bara</a></li>
+                        </ul>
+                     </li>
+                     <li class="sub-menu__item"><a href="#" class="sub-menu__link">Rats</a>
+                        <ul class="second-sub-menu sub-menu__add-menu">
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Kachun</a></li>
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Laura</a></li>
+                        </ul>
+                     </li>
+                     <li class="sub-menu__item"><a href="#" class="sub-menu__link">Fish</a></li>
+                  </ul>
+               </li>
+               <li class="menu__item"><a href="#" class="menu__link">Buy treats </a>
+                  <ul class="menu__sub-menu sub-menu">
+                     <li class="sub-menu__item"><a href="#" class="sub-menu__link">Dog Cookie</a>
+                        <ul class="second-sub-menu sub-menu__add-menu">
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">"Chocolate"
+                                 cookie</a></li>
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Cheese cookie</a>
+                           </li>
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Regular
+                                 cookie</a></li>
+                        </ul>
+                     </li>
+                     <li class="sub-menu__item"><a href="#" class="sub-menu__link">Cat Fish</a>
+                        <ul class="second-sub-menu sub-menu__add-menu">
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Tuna</a></li>
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Salmon</a></li>
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Hake</a></li>
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Mackerel</a></li>
+                        </ul>
+                     </li>
+                     <li class="sub-menu__item"><a href="#" class="sub-menu__link">Seeds</a>
+                        <ul class="second-sub-menu sub-menu__add-menu">
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">For humsters</a>
+                           </li>
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">For rats</a></li>
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">For parrots</a>
+                           </li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>
+               <li class="menu__item"><a href="#" class="menu__link">Toys</a>
+                  <ul class="menu__sub-menu sub-menu">
+                     <li class="sub-menu__item"><a href="#" class="sub-menu__link">Balls</a></li>
+                     <li class="sub-menu__item"><a href="#" class="sub-menu__link">Feathers</a>
+                        <ul class="sub-menu__add-menu second-sub-menu">
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Synthetic</a>
+                           </li>
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Natural</a></li>
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">On a stick</a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="sub-menu__item"><a href="#" class="sub-menu__link">Rings</a></li>
+                     <li class="sub-menu__item"><a href="#" class="sub-menu__link">Plush Toys</a>
+                        <ul class="second-sub-menu sub-menu__add-menu">
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Squishmallows</a>
+                           </li>
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Small toys</a>
+                           </li>
+                           <li class="second-sub-menu__item"><a href="#" class="second-sub-menu__link">Wild Animals</a>
+                           </li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>
+               <li class="menu__item menu__item--hover-blue"><a href="#" class="menu__link ">Donate</a></li>
+            </ul>
+         </div>
+      </header>
+      <main class="page">
+         <div class="page__hero hero">
+            <div class="hero__container">
+               <div class="hero__side side">
+                  <h5 class="side__title">Make a Donation</h5>
+                  <p>Your donation helps us to save more lives</p>
+                  <a href="#" class="side__link">Donate</a>
+               </div>
+               <div class="page__article article">
+                  <h2 class="article__title">Reasons for Pet Adoption</h2>
+                  <div class="article__text">
+                     <p>Pet adoption is a lifesaving and heart-expanding endeavor. And there are so many rewards of
+                        adopting a pet, including saving the life of a homeless pet and providing them with love and
+                        companionship, addressing community issues such as cat and dog overpopulation, and making room
+                        for shelters and rescue groups to save more pets.</p>
+                     <p>When you adopt a pet, you are also doing your part to put an end to puppy mills and other
+                        inhumane breeding practices where animals often live in cramped conditions without much quality
+                        of life. Backyard breeders and pet mills are notorious for overbreeding dogs. And some cat
+                        breeders have also been found to have mill-like conditions, where adult animals are bred over
+                        and over for the sole purpose of churning out pets for sale.</p>
+                  </div>
+                  <div class="article__text">
+                     <h4 class="article__subtitle">Adoption Benefits</h4>
+                     <p>Adopting a pet can also positively impact a person’s life, and the physical and mental health
+                        benefits of having a pet are worth noting. More exercise, play, and outdoor time can improve a
+                        person’s mood and increase their socialization as they meet other people (and pets) on daily
+                        walks. In addition, an increase in exercise through daily walking can improve physical fitness
+                        and health conditions. Plus, a pet can provide friendship and companionship that can help with
+                        loneliness and depression.</p>
+                     <p>If you can’t adopt a pet right now, you can still reap these benefits. There are plenty of dogs,
+                        cats, and other pets at animal shelters and rescue groups who need daily walks and attention.
+                     </p>
+                     <p>As you can see, there are countless reasons for pet adoption — and there are many homeless dogs
+                        and cats in shelters and rescue groups across the country who need a loving home. These animals
+                        are deserving of our love, attention, and care. And their benefits for us abound as well. </p>
+                  </div>
+                  <div class="article__text">
+                     <h4 class="article__subtitle">Benefits of adopting vs. buying</h4>
+                     <p>When you adopt a pet from a shelter or rescue organization instead of buying a pet, you are
+                        providing a home for a pet in need and freeing up space for more animals to be saved. Every day,
+                        dogs and cats are killed in America’s shelters simply because they don’t have safe places to
+                        call home. That means when you adopt an animal, you are gaining a loving companion and saving a
+                        life at the same time.</p>
+                     <p>By adopting a pet, you’re also taking a stand against puppy mills, which are cruel, inhumane
+                        factory farms for dogs where quick profits take precedence over the well-being, health, and
+                        security of the animals.</p>
+                     <p>Puppy mill dogs live in cramped quarters, and female dogs are bred continuously to produce as
+                        many puppies as possible to turn a quick profit for the retail pet trade. Ultimately, the focus
+                        is on money and not on the welfare of the animals.</p>
+                     <p>While more and more Americans oppose this inhumane practice, there are still thousands of puppy
+                        mills in existence in this country today. Many people don’t realize that when they buy a dog
+                        online or from a pet store, that dog might have come from a puppy mill. Adopting a pet is a
+                        lifesaving alternative and a wonderful way to protest pet mills and advocate for animals.</p>
+                     <p>The cost to acquire and care for a dog or cat is worth considering. Buying a pet can cost
+                        hundreds or thousands of dollars while adoption is generally cheaper, and there could be
+                        additional veterinary costs associated with animals who come from a pet store or breeder. For
+                        example, because puppy mills cut corners on health and welfare, dogs purchased from such a
+                        facility often end up with health problems.</p>
+                     <p>Furthermore, many animal shelters and rescue groups spay or neuter their dogs and cats before
+                        their adoption, as well as vaccinate and microchip their animals. This can mean hundreds, if not
+                        thousands, of dollars in additional savings when you adopt a pet as opposed to buying one.</p>
+                     <p>Pet adoption saves lives, and it frees up space in shelters so more lives can be saved. It is
+                        also the more ethical, thoughtful, and caring way to bring a pet into your life.</p>
+                  </div>
+                  <div class="article__text">
+                     <h4 class="article__subtitle">Benefits of adopting a pet</h4>
+                     <p>Pet adoption positively impacts the lives of homeless animals, as well as the people who adopt
+                        them. </p>
+                     <p>Adopting an animal often provides new opportunities for social interaction and connection with
+                        other people who have pets. It can decrease social isolation and loneliness; improve physical
+                        health through exercise, play, and new fitness routines; and improve one’s mental health,
+                        emotional stability, and overall sense of well-being thanks to the unconditional love of a
+                        companion animal. </p>
+                     <p>A pet can also produce a calming effect on a person. For example, according to Johns Hopkins
+                        Medicine, “simply petting a dog lowers the stress hormone cortisol, while the social interaction
+                        between people and their dogs actually increases levels of the feel-good hormone oxytocin (the
+                        same hormone that bonds mothers to babies).”</p>
+                     <p>Moreover, pets can provide value to their family and community as emotional support animals and
+                        therapy pets. They can help people with a host of conditions, including diabetes, autism,
+                        cancer, and PTSD. And they can visit people at homes, hospitals, nursing homes, care facilities,
+                        schools, and throughout the community. In addition, rescuing animals can be a great tool for
+                        parents to teach their children about responsibility; animal care; and the necessity for routine
+                        healthy nutrition, exercise, and playtime.</p>
+                     <p>A rescued pet can also reduce stress and anxiety. For instance, studies have shown that eye
+                        contact with your dog can release oxytocin — known as the love hormone — which can relieve both
+                        anxiety and depression.</p>
+                     <p>In a report on the power of pets, the National Institutes of Health said that interacting with
+                        animals can lower blood pressure. Other studies have found that pets can improve overall heart
+                        health and reduce the risk of certain heart-related diseases.</p>
+                     <p>A rescued pet also can give a person a renewed sense of purpose and provide them with
+                        unconditional love. Dogs and cats are incredible companions, and they really have a positive
+                        impact on our overall health and well-being.</p>
+                  </div>
+               </div>
+               <div class="hero__side side side--left-margin side--blue">
+                  <h5 class="side__title">Cute dogs and cats</h5>
+                  <p>Find yourself a new friend with its photo</p>
+                  <a href="#" class="side__link">Photos</a>
+               </div>
+            </div>
+            <div class="experts-block" id="experts">
+               <div class="experts-block__container">
+                  <div class="experts-block__card card">
+                     <img src="img/content/member-1.webp" alt="a member" class="card__img">
+                     <div class="card__socials">
+                        <a href="#" class="card__link-social"><img src="img/icons/inst.svg" alt="instagram"></a>
+                        <a href="#" class="card__link-social"><img src="img/icons/fb.svg" alt="facebook"></a>
+                        <a href="#" class="card__link-social"><img src="img/icons/tw.svg" alt="twitter"></a>
+                     </div>
+                     <div class="card__name-box">
+                        <h4 class="card__title">Nattasha Kelvin</h4>
+                        <p>Managing Director</p>
+                     </div>
+                  </div>
+                  <div class="experts-block__card card">
+                     <img src="img/content/member-2.webp" alt="a member" class="card__img">
+                     <div class="card__socials">
+                        <a href="#" class="card__link-social"><img src="img/icons/inst.svg" alt="instagram"></a>
+                        <a href="#" class="card__link-social"><img src="img/icons/fb.svg" alt="facebook"></a>
+                        <a href="#" class="card__link-social"><img src="img/icons/tw.svg" alt="twitter"></a>
+                     </div>
+                     <div class="card__name-box">
+                        <h4 class="card__title">David Simpson</h4>
+                        <p>Designer</p>
+                     </div>
+                  </div>
+                  <div class="experts-block__card card">
+                     <img src="img/content/member-3.webp" alt="a member" class="card__img">
+                     <div class="card__socials">
+                        <a href="#" class="card__link-social"><img src="img/icons/inst.svg" alt="instagram"></a>
+                        <a href="#" class="card__link-social"><img src="img/icons/fb.svg" alt="facebook"></a>
+                        <a href="#" class="card__link-social"><img src="img/icons/tw.svg" alt="twitter"></a>
+                     </div>
+                     <div class="card__name-box">
+                        <h4 class="card__title">Madeleine Grant</h4>
+                        <p>Marketing Specialist</p>
+                     </div>
+                  </div>
+                  <div class="experts-block__card card">
+                     <img src="img/content/member-4.webp" alt="a member" class="card__img">
+                     <div class="card__socials">
+                        <a href="#" class="card__link-social"><img src="img/icons/inst.svg" alt="instagram"></a>
+                        <a href="#" class="card__link-social"><img src="img/icons/fb.svg" alt="facebook"></a>
+                        <a href="#" class="card__link-social"><img src="img/icons/tw.svg" alt="twitter"></a>
+                     </div>
+                     <div class="card__name-box">
+                        <h4 class="card__title">Jonathan Coleman</h4>
+                        <p>Managing Director</p>
+                     </div>
+                  </div>
+                  <div class="experts-block__card card">
+                     <img src="img/content/member-5.webp" alt="a member" class="card__img">
+                     <div class="card__socials">
+                        <a href="#" class="card__link-social"><img src="img/icons/inst.svg" alt="instagram"></a>
+                        <a href="#" class="card__link-social"><img src="img/icons/fb.svg" alt="facebook"></a>
+                        <a href="#" class="card__link-social"><img src="img/icons/tw.svg" alt="twitter"></a>
+                     </div>
+                     <div class="card__name-box">
+                        <h4 class="card__title">Wanda Forsyth</h4>
+                        <p>Designer</p>
+                     </div>
+                  </div>
+                  <div class="experts-block__card card">
+                     <img src="img/content/member-6.webp" alt="a member" class="card__img">
+                     <div class="card__socials">
+                        <a href="#" class="card__link-social"><img src="img/icons/inst.svg" alt="instagram"></a>
+                        <a href="#" class="card__link-social"><img src="img/icons/fb.svg" alt="facebook"></a>
+                        <a href="#" class="card__link-social"><img src="img/icons/tw.svg" alt="twitter"></a>
+                     </div>
+                     <div class="card__name-box">
+                        <h4 class="card__title">Austin Randall</h4>
+                        <p>Marketing Specialist</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer"></footer>
+   </div>
+</body>
+
+</html>
