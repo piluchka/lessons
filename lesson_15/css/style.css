@@ -365,7 +365,12 @@ body {
   font-weight: 600;
   line-height: 1.2;
 }
-
+.form-order__link-title {
+  transition: color 0.3s ease;
+}
+.form-order__link-title:hover {
+  color: #949494;
+}
 .form-order__content {
   display: flex;
   justify-content: space-between;
