@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson 16 - HTML forms</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__container"></div>
+      </header>
+      <main class="hero">
+         <div class="hero__container">
+            <div class="hero__call-section call">
+               <div class="call__container">
+                  <div class="call__titles">
+                     <h2 class="call__title">Request A Call Back !</h2>
+                     <h3 class="call__subtitle">Contact Us</h3>
+                  </div>
+                  <form action="#" method="GET" enctype="multipart/form-data" class="call__form form-call"
+                     id="form-call">
+                     <div class="form-call__body">
+                        <div class="form-call__item"><input autocomplete="on" type="text" name="name"
+                              placeholder="Your Name" required></div>
+                        <div class="form-call__item"><input autocomplete="on" type="email" name="email"
+                              placeholder="Email Address"></div>
+                        <div class="form-call__item"><input autocomplete="on" type="tel" name="phone-num"
+                              placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-call__item"><input type="text" name="subject" placeholder="Subject"></div>
+                        <div class="form-call__item form-call__item--textarea">
+                           <textarea class="form-call__textarea" name="message" placeholder="Message..."></textarea>
+                        </div>
+                     </div>
+                     <button form="form-call" class="form-call__button" type="submit">Submit</button>
+                  </form>
+               </div>
+            </div>
+            <div class="hero__info-section info">
+               <div class="info__container">
+                  <h2 class="info__title">My Info</h2>
+                  <h3 class="info__subtitle">Add Address</h3>
+                  <form action="#" method="GET" enctype="multipart/form-data" class="info__form form-info">
+                     <div class="form-info__body">
+                        <div class="form-info__item">
+                           <label for="first-name">First Name*</label><input autocomplete="on" type="text"
+                              name="first-name" id="first-name" placeholder="First Name" required>
+                        </div>
+                        <div class="form-info__item">
+                           <label for="last-name">Last Name*</label><input autocomplete="on" type="text"
+                              name="last-name" id="last-name" placeholder="Last Name" required>
+                        </div>
+                        <div class="form-info__item">
+                           <label for="country">Country / Region*</label><input autocomplete="on" type="text"
+                              name="country" id="country" placeholder="Country / Region" required>
+                        </div>
+                        <div class="form-info__item">
+                           <label for="company">Company Name</label><input autocomplete="on" type="text" name="company"
+                              id="company" placeholder="Company (optional)">
+                        </div>
+                        <div class="form-info__item">
+                           <label for="address">Street Address*</label><input autocomplete="on" type="text"
+                              name="address" id="address" placeholder="House number and street name" required>
+                        </div>
+                        <div class="form-info__item">
+                           <label for="unit">Apt, suite, unit</label><input autocomplete="on" type="text" name="unit"
+                              id="unit" placeholder="apartment, suite, unit, etc. (optional)">
+                        </div>
+                        <div class="form-info__item">
+                           <label for="city">City*</label><input autocomplete="on" type="text" name="city" id="city"
+                              placeholder="Town / City" required>
+                        </div>
+                        <div class="form-info__item form-info__item--arrow">
+                           <label for="state">State*</label>
+                           <select class="form-info__select" name="state" id="state" required>
+                              <option value="" disabled selected hidden>State</option>
+                              <option value="Alab">Alabama</option>
+                              <option value="Flor">Florida</option>
+                              <option value="Louis">Louisiana</option>
+                              <option value="Mont">Montana</option>
+                              <option value="NCarol">North Carolina</option>
+                           </select>
+                        </div>
+                        <div class="form-info__item">
+                           <label for="phone">Phone*</label><input autocomplete="on" type="tel" name="phone" id="phone"
+                              placeholder="Phone" required>
+                        </div>
+                        <div class="form-info__item">
+                           <label for="post-code">Postal Code*</label><input autocomplete="on" type="number"
+                              name="post-code" id="post-code" placeholder="Postal Code" required>
+                        </div>
+                        <div class="form-info__item form-info__item--textarea">
+                           <label for="instruction">Delivery Instruction</label>
+                           <textarea name="instruction" id="instruction" placeholder="Delivery Instruction"></textarea>
+                        </div>
+                        <div class="form-info__checkboxes">
+                           <div class="form-info__item form-info__item--checkbox">
+                              <input type="checkbox" name="def-ship-address" id="def-ship-address"
+                                 value="isDefShipping">
+                              <label for="def-ship-address">Set as default shipping address</label>
+                           </div>
+                           <div class="form-info__item form-info__item--checkbox">
+                              <input type="checkbox" name="def-bill-address" id="def-bill-address"
+                                 value="isDefSBilling">
+                              <label for="def-bill-address">Set as default billing address</label>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="form-info__buttons">
+                        <button class="form-info__save-button" type="submit">Save</button>
+                        <button class="form-info__cancel-button" type="reset">Cancel</button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+         <div class="footer__container"></div>
+      </footer>
+   </div>
+</body>
+
+</html>
