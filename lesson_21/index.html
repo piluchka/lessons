@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson 21 - Semantics and Accessibility </title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__container">
+            <div class="header__image"><img src="img/logo.svg" alt="logo" class="header__logo"></div>
+            <div class="header__menu menu">
+               <nav class="menu__body">
+                  <ul class="menu__list">
+                     <li class="menu__item"><a href="#" class="menu__link">Shop</a></li>
+                     <li class="menu__item"><a href="#" class="menu__link">Men</a></li>
+                     <li class="menu__item"><a href="#" class="menu__link">Women</a></li>
+                     <li class="menu__item"><a href="#" class="menu__link">Combos</a></li>
+                     <li class="menu__item"><a href="#" class="menu__link">Joggers</a></li>
+                  </ul>
+               </nav>
+            </div>
+            <form action="#" method="GET" enctype="multipart/form-data" class="header__form search">
+               <div class="search__input">
+                  <svg class="search__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path
+                        d="M16.6363 17.697C16.9292 17.9899 17.4041 17.9899 17.697 17.697C17.9899 17.4041 17.9899 16.9292 17.697 16.6363L16.6363 17.697ZM13.9167 8.83334C13.9167 11.6408 11.6408 13.9167 8.83334 13.9167V15.4167C12.4692 15.4167 15.4167 12.4692 15.4167 8.83334H13.9167ZM8.83334 13.9167C6.02589 13.9167 3.75 11.6408 3.75 8.83334H2.25C2.25 12.4692 5.19746 15.4167 8.83334 15.4167V13.9167ZM3.75 8.83334C3.75 6.02589 6.02589 3.75 8.83334 3.75V2.25C5.19746 2.25 2.25 5.19746 2.25 8.83334H3.75ZM8.83334 3.75C11.6408 3.75 13.9167 6.02589 13.9167 8.83334H15.4167C15.4167 5.19746 12.4692 2.25 8.83334 2.25V3.75ZM12.4697 13.5303L16.6363 17.697L17.697 16.6363L13.5303 12.4697L12.4697 13.5303Z"
+                        fill="#807D7E" />
+                  </svg><input type="text" name="search" placeholder="Search">
+               </div>
+            </form>
+            <div class="header__buttons">
+               <a href="#" class="header__button"><img src="img/icons/fav.svg" alt="fav"></a>
+               <a href="#" class="header__button"><img src="img/icons/user.svg" alt="user"></a>
+               <a href="#" class="header__button header__button--violet"><img src="img/icons/cart.svg" alt="cart"></a>
+            </div>
+            <button class="header__icon">
+               <span></span>
+            </button>
+         </div>
+      </header>
+      <main class="page">
+         <section class="page__hero hero">
+            <div class="hero__container">
+               <div class="swiper hero__swiper" id="main-swiper">
+                  <div class="swiper-wrapper hero__wrapper">
+                     <div class="swiper-slide hero__slide">
+                        <div class="hero__image"><img src="img/hero/hero_bg.webp" alt=""></div>
+                        <div class="hero__content">
+                           <div class="hero__text">
+                              <p>T-shirt / Tops</p>
+                           </div>
+                           <h2 class="hero__title"> Summer Value Pack </h2>
+                           <div class="hero__text">
+                              <p>cool / colorful / comfy</p>
+                           </div>
+                           <a href="#" class="hero__button"> Shop Now </a>
+                        </div>
+                     </div>
+                     <div class="swiper-slide hero__slide">
+                        <div class="hero__image"><img src="img/hero/hero_bg2.jpeg" alt=""></div>
+                        <div class="hero__content">
+                           <div class="hero__text">
+                              <p>Cozy sweaters</p>
+                           </div>
+                           <h2 class="hero__title"> Autumn Value Pack </h2>
+                           <div class="hero__text">
+                              <p>Pastel / fluffy / comfy</p>
+                           </div>
+                           <a href="#" class="hero__button"> Shop Now </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-pagination hero__pagination "></div>
+                  <div class="swiper-button-prev hero__button-prev"></div>
+                  <div class="swiper-button-next hero__button-next"></div>
+               </div>
+            </div>
+         </section>
+         <section class="page__discount discount">
+            <div class="discount__container">
+               <div class="discount__items">
+                  <article class="discount__item item">
+                     <img src="img/discount/discount_1.webp" alt="girl" class="item__img">
+                     <div class="item__body">
+                        <div class="item__subtitle">
+                           <p>Low Price</p>
+                        </div>
+                        <h3 class="item__title">
+                           <a href="#" class="item__link-title">High Coziness</a>
+                        </h3>
+                        <div class="item__text">
+                           <p>UPTO 50% OFF</p>
+                        </div>
+                        <a href="#" class="item__link">Explore Items</a>
+                     </div>
+                  </article>
+                  <article class="discount__item item">
+                     <img src="img/discount/discount_2.webp" alt="girl" class="item__img">
+                     <div class="item__body">
+                        <div class="item__subtitle">
+                           <p>Beyoung Presents</p>
+                        </div>
+                        <h3 class="item__title">
+                           <a href="#" class="item__link-title">Breezy Summer Style</a>
+                        </h3>
+                        <div class="item__text">
+                           <p>UPTO 50% OFF</p>
+                        </div>
+                        <a href="#" class="item__link">Explore Items</a>
+                     </div>
+                  </article>
+               </div>
+            </div>
+         </section>
+         <section class="page__arrival arrival">
+            <div class="arrival__container">
+               <h3 class="arrival__title title">New Arrival</h3>
+               <div class="arrival__body">
+                  <div class="swiper arrival__swiper" id="card-swiper">
+                     <div class="swiper-wrapper arrival__wrapper">
+                        <div class="swiper-slide arrival__slide">
+                           <article class="item-arrival arrival__item">
+                              <a href="#" class="item-arrival__link-img">
+                                 <img src="img/arrival/arrival_1.webp" alt="cloths">
+                              </a>
+                              <h5 class="item-arrival__title">
+                                 <a href="#">Knitted Joggers</a>
+                              </h5>
+                           </article>
+                        </div>
+                        <div class="swiper-slide arrival__slide">
+                           <article class="item-arrival arrival__item">
+                              <a href="#" class="item-arrival__link-img">
+                                 <img src="img/arrival/arrival_2.webp" alt="cloths">
+                              </a>
+                              <h5 class="item-arrival__title">
+                                 <a href="#">Full Sleeve</a>
+                              </h5>
+                           </article>
+                        </div>
+                        <div class="swiper-slide arrival__slide">
+                           <article class="item-arrival arrival__item">
+                              <a href="#" class="item-arrival__link-img">
+                                 <img src="img/arrival/arrival_3.webp" alt="cloths">
+                              </a>
+                              <h5 class="item-arrival__title">
+                                 <a href="#">Active T-Shirts</a>
+                              </h5>
+                           </article>
+                        </div>
+                        <div class="swiper-slide arrival__slide">
+                           <article class="item-arrival arrival__item">
+                              <a href="#" class="item-arrival__link-img">
+                                 <img src="img/arrival/arrival_4.webp" alt="cloths">
+                              </a>
+                              <h5 class="item-arrival__title">
+                                 <a href="#">Urban Shirts</a>
+                              </h5>
+                           </article>
+                        </div>
+                        <div class="swiper-slide arrival__slide">
+                           <article class="item-arrival arrival__item">
+                              <a href="#" class="item-arrival__link-img">
+                                 <img src="img/arrival/arrival_2.webp" alt="cloths">
+                              </a>
+                              <h5 class="item-arrival__title">
+                                 <a href="#">Full Sleeve</a>
+                              </h5>
+                           </article>
+                        </div>
+                     </div>
+                     <!-- If we need navigation buttons -->
+                     <div class="swiper-button-prev arrival__button-prev"></div>
+                     <div class="swiper-button-next arrival__button-next"></div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="page__saving saving">
+            <div class="saving__container">
+               <h3 class="saving__title title">Big Saving Zone</h3>
+               <div class="saving__items">
+                  <article class="saving__item item-saving">
+                     <img class="item-saving__image" src="img/saving/saving_1.webp" alt="stuff">
+                     <div class="item-saving__body">
+                        <div class="item-saving__content">
+                           <h5 class="item-saving__title">
+                              <a href="#"> Hawaiian Shirts</a>
+                           </h5>
+                           <div class="item-saving__subtitle">
+                              <p>Dress up in summer vibe</p>
+                           </div>
+                           <div class="item-saving__text">
+                              <p>UPTO 50% OFF</p>
+                           </div>
+                           <svg class="item-saving__arrow" xmlns="http://www.w3.org/2000/svg" width="23" height="26"
+                              viewBox="0 0 23 26" fill="none">
+                              <path
+                                 d="M11.5678 1.28613L11.5678 23.8893M22 15.1958L12.7972 24.3985C12.1182 25.0775 11.0173 25.0775 10.3383 24.3985L1.13557 15.1958"
+                                 stroke="white" stroke-width="2" stroke-linecap="round" />
+                           </svg>
+                           <a href="#" class="item-saving__button">SHOP NOW</a>
+                        </div>
+                     </div>
+                  </article>
+                  <article class="saving__item item-saving">
+                     <img class="item-saving__image" src="img/saving/saving_2.webp" alt="stuff">
+                     <div class="item-saving__body item-saving__body--right">
+                        <div class="item-saving__content">
+                           <div class="item-saving__limited-label">
+                              <p>Limited Stock</p>
+                           </div>
+                           <h5 class="item-saving__title">
+                              <a href="#">Printed <br> T-Shirt</a>
+                           </h5>
+                           <div class="item-saving__subtitle">
+                              <p>New Designs Every Week</p>
+                           </div>
+                           <div class="item-saving__text">
+                              <p>UPTO 40% OFF</p>
+                           </div>
+                           <svg class="item-saving__arrow" xmlns="http://www.w3.org/2000/svg" width="23" height="26"
+                              viewBox="0 0 23 26" fill="none">
+                              <path
+                                 d="M11.5678 1.28613L11.5678 23.8893M22 15.1958L12.7972 24.3985C12.1182 25.0775 11.0173 25.0775 10.3383 24.3985L1.13557 15.1958"
+                                 stroke="white" stroke-width="2" stroke-linecap="round" />
+                           </svg>
+                           <a href="#" class="item-saving__button">SHOP NOW</a>
+                        </div>
+                     </div>
+                  </article>
+                  <article class="saving__item item-saving">
+                     <img class="item-saving__image" src="img/saving/saving_3.webp" alt="stuff">
+                     <div class="item-saving__body item-saving__body--right item-saving__body--dark">
+                        <div class="item-saving__content item-saving__content--dark">
+                           <h5 class="item-saving__title">
+                              <a href="#">Cargo Joggers</a>
+                           </h5>
+                           <div class="item-saving__subtitle">
+                              <p>Move with style & comfort</p>
+                           </div>
+                           <div class="item-saving__text">
+                              <p>UPTO 50% OFF</p>
+                           </div>
+                           <svg class="item-saving__arrow" xmlns="http://www.w3.org/2000/svg" width="23" height="26"
+                              viewBox="0 0 23 26" fill="none">
+                              <path
+                                 d="M11.5678 1.28613L11.5678 23.8893M22 15.1958L12.7972 24.3985C12.1182 25.0775 11.0173 25.0775 10.3383 24.3985L1.13557 15.1958"
+                                 stroke="white" stroke-width="2" stroke-linecap="round" />
+                           </svg>
+                           <a href="#" class="item-saving__button">SHOP NOW</a>
+                        </div>
+                     </div>
+                  </article>
+                  <article class="saving__item item-saving item-saving--big">
+                     <img class="item-saving__image" src="img/saving/saving_4.webp" alt="stuff">
+                     <div class="item-saving__body item-saving__body--right item-saving__body--dark">
+                        <div class="item-saving__content item-saving__content--dark">
+                           <h5 class="item-saving__title">
+                              <a href="#">Urban Shirts</a>
+                           </h5>
+                           <div class="item-saving__subtitle">
+                              <p>Live In Confort</p>
+                           </div>
+                           <div class="item-saving__text">
+                              <p>FLAT 60% OFF</p>
+                           </div>
+                           <svg class="item-saving__arrow" xmlns="http://www.w3.org/2000/svg" width="23" height="26"
+                              viewBox="0 0 23 26" fill="none">
+                              <path
+                                 d="M11.5678 1.28613L11.5678 23.8893M22 15.1958L12.7972 24.3985C12.1182 25.0775 11.0173 25.0775 10.3383 24.3985L1.13557 15.1958"
+                                 stroke="white" stroke-width="2" stroke-linecap="round" />
+                           </svg>
+                           <a href="#" class="item-saving__button">SHOP NOW</a>
+                        </div>
+                     </div>
+                  </article>
+                  <article class="saving__item item-saving item-saving--big">
+                     <img class="item-saving__image" src="img/saving/saving_5.webp" alt="stuff">
+                     <div class="item-saving__body item-saving__body--right item-saving__body--dark">
+                        <div class="item-saving__content item-saving__content--dark">
+                           <h5 class="item-saving__title">
+                              <a href="#">Oversized <br> T-Shirts</a>
+                           </h5>
+                           <div class="item-saving__subtitle">
+                              <p>Street Style Icon</p>
+                           </div>
+                           <div class="item-saving__text">
+                              <p>FLAT 60% OFF</p>
+                           </div>
+                           <svg class="item-saving__arrow" xmlns="http://www.w3.org/2000/svg" width="23" height="26"
+                              viewBox="0 0 23 26" fill="none">
+                              <path
+                                 d="M11.5678 1.28613L11.5678 23.8893M22 15.1958L12.7972 24.3985C12.1182 25.0775 11.0173 25.0775 10.3383 24.3985L1.13557 15.1958"
+                                 stroke="white" stroke-width="2" stroke-linecap="round" />
+                           </svg>
+                           <a href="#" class="item-saving__button">SHOP NOW</a>
+                        </div>
+                     </div>
+                  </article>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+         <div class="footer__container"></div>
+      </footer>
+   </div>
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+
+</html>
